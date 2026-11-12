@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'https://taskmernbackend-zya1sfh0.back4.app/api/tasks/'
+const API_URL = 'https://task-mern-backend-4e4f.onrender.com/api/tasks/'
 
 const createTask = async(taskData, token) =>{
     const config = {
